@@ -8,6 +8,8 @@ Available plugins :
 * Currently online and known users
 * Memory usage
 
+![Memory usage](https://cloud.githubusercontent.com/assets/990787/5695656/1dccf362-99ae-11e4-899f-cbb2cf0cbc7c.png)
+![Users](https://cloud.githubusercontent.com/assets/990787/5695657/1fb6ca86-99ae-11e4-89db-6eeeffb1ff69.png)
 
 Installation
 ------------
