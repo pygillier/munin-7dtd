@@ -18,13 +18,12 @@ You need to restart your munin-node instance to activate plugins.
 
 Configuration
 -------------
-tdb
 
+Plugins are configured to connect to a server instance listening on `127.0.0.1` IP address and `8081` port. If your instance doesn't listen on this address, you must create a file in [plugins-conf.d](http://munin-monitoring.org/wiki/plugin-conf.d) on your munin master. 
 
-Usage
------
-tdb
-
+This file must contains the following parameters
 
 
 _Telnet access has to be enabled for your instances !_
+
+[Apache licence](//github.com/pygillier.munin-7dtd/master/LICENSE) &copy; Pierre-Yves Gillier
