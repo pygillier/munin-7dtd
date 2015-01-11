@@ -35,4 +35,9 @@ env.host ip_address
 env.port port_number
 ```
 
-[Apache licence](//github.com/pygillier.munin-7dtd/master/LICENSE) &copy; Pierre-Yves Gillier
+Issues and support
+------------------
+
+Please use [Github issues](github.com/pygillier/munin-7dtd/issues).
+
+[Apache licence](//github.com/pygillier.munin-7dtd/master/LICENSE) &copy;2015 Pierre-Yves Gillier
