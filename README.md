@@ -25,13 +25,14 @@ Plugins are configured to connect to a server instance listening on `127.0.0.1` 
 
 This file must contains the following parameters
 
-  [7dtd_users]
-  env.host ip_address
-  env.port port_number
-  
-  [7dtd_mem]
-  env.host ip_address
-  env.port port_number
+```
+[7dtd_users]
+env.host ip_address
+env.port port_number
 
+[7dtd_mem]
+env.host ip_address
+env.port port_number
+```
 
 [Apache licence](//github.com/pygillier.munin-7dtd/master/LICENSE) &copy; Pierre-Yves Gillier
