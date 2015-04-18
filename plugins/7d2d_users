@@ -4,14 +4,15 @@
 #
 # Python script to retrieve and send to munin connected users to instance
 
-import sys
+import sys,os
 import telnetlib
 import re
 
 # Variables
 host=os.getenv("host", "127.0.0.1")
 port=os.getenv("port", "8081")
-plugin_version="0.1"
+password=os.getenv("pass", "")
+plugin_version="0.2"
 
 # Regexes
 online_re = re.compile('Total of (\d{1,}) in the game')
@@ -34,6 +35,11 @@ def config():
 def report():
 	# Open connection
 	cnx = telnetlib.Telnet(host, port)
+
+	# Send password, if given
+	if len(password)>0:
+		cnx.write(password + "\n")
+
 	cnx.read_until("end session.")
 
 	# Online users
