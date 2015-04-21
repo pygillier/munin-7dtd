@@ -26,13 +26,15 @@ Plugins are configured to connect to a server instance listening on `127.0.0.1` 
 This file must contains the following parameters
 
 ```
-[7dtd_users]
+[7d2d_users]
 env.host ip_address
 env.port port_number
+env.password password
 
-[7dtd_mem]
+[7d2d_mem]
 env.host ip_address
 env.port port_number
+env.password password
 ```
 
 Issues and support
